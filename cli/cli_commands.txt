@@ -1,0 +1,41 @@
+0)python se2207.py login --username nkbenetos@gmail.com --passw 123
+
+
+1)
+python se2207.py healthcheck --format csv
+python se2207.py healthcheck --format json
+
+
+2)
+python se2207.py questionnaire --questionnaire_id QQ004 --format csv
+python se2207.py questionnaire --questionnaire_id QQ004 --format json
+
+3)
+python se2207.py doanswer --questionnaire_id QQ004 --question_id P01 --session_id KAPA --option_id P01A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id P02 --session_id KAPA --option_id P02A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q01 --session_id KAPA --option_id Q01A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q02 --session_id KAPA --option_id Q02A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q03 --session_id KAPA --option_id Q03A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q04 --session_id KAPA --option_id Q04A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q05 --session_id KAPA --option_id Q05A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q06 --session_id KAPA --option_id Q06A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q07 --session_id KAPA --option_id Q07A1
+python se2207.py doanswer --questionnaire_id QQ004 --question_id Q08 --session_id KAPA --option_id Q08A1
+
+
+4)
+python se2207.py getquestionanswers --questionnaire_id QQ004 --question_id Q01 --format csv
+python se2207.py getquestionanswers --questionnaire_id QQ004 --question_id Q01 --format json
+
+
+5)
+python se2207.py resetall --format csv
+python se2207.py resetall --format json
+
+6)
+python se2207.py questionnaireupd --source questionnaire4.txt
+
+
+7)
+python se2207.py questionnaire --questionnaire_id QQ004 --format csv
+python se2207.py questionnaire --questionnaire_id QQ004 --format json
